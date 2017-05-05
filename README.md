@@ -1,2 +1,2 @@
 # ml
-Learning machine learning
+Learning about machine learning
