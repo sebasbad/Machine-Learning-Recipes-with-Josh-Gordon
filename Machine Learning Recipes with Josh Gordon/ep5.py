@@ -1,11 +1,18 @@
 # Writing Our First Classifier - Machine Learning Recipes #5
+import random
 
 class ScrappyKNN():
     def fit(self, X_train, y_train):
-        pass
+        self.X_Train = X_train
+        self.y_train = y_train
 
     def predict(self, X_test):
-        pass
+        predictions = []
+        for row in X_test:
+            label = random.choice(self.y_train)
+            predictions.append(label)
+
+        return predictions
 
 from sklearn import datasets
 iris = datasets.load_iris()
