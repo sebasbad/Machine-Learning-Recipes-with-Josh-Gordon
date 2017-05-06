@@ -26,4 +26,6 @@ plt.show()
 # feature than the latitude and longitude of each city, as the former would need
 # much more training cases to understand the relation between the latitude, the
 # longutude, the distance and the time, to be able to get a similar prediction
-# accuracy
+# accuracy. Simpler relationships are easier to learn.
+
+# Ideal features: informative, independent, simple.
